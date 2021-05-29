@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #241420;
+  
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .app {
+    position: relative;
+  }
+  
+  .container {
+    background-color: #d12046;
+    position: absolute;
+    padding: 1em 2em;
+  
+    width: 400px;
+  
+    left: 0;
+    right: 0;
+    margin: auto;
+  
+    top: 50vh;
+    transform: translateY(-50%);
+  
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2b2b2e;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.5em 0;
+  }
+  
+  .remove {
+    border: none;
+    background-color: #324199;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  #item-button {
+    cursor: pointer;
+    background-color: #2137b6;
+    border: none;
+    padding: 0.5em;
+  }
+  
+  input {
+    border: none;
+    padding: 0.5em;
+  }
+  
